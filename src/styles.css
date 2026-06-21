@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  background: #f5f6fa;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.form input, .form select {
+  margin: 5px;
+  padding: 10px;
+}
+
+.form button {
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tag {
+  color: blue;
+  font-weight: bold;
+}
+
+.type {
+  color: green;
+}
