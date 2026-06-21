@@ -8,6 +8,9 @@ export default function Dashboard() {
   const [resources, setResources] = useState([]);
   const [filter, setFilter] = useState("All");
   const [search, setSearch] = useState("");
+  {filteredData?.map((item) => (
+  <ResourceCard key={item.id} item={item} />
+))}
 
   // Load from localStorage
   useEffect(() => {
